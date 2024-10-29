@@ -2,3 +2,33 @@ h1{
     font-family: Major Mono Display;
     text-align: center;
 }
+
+.itemlistcontainer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .itemlistcontainer .itemlist{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .itemlistcontainer .item{
+    width: 20%;
+    margin: 3% 6%;
+    padding: 2%;
+    border: 2px solid #684e4e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .item .img-item{
+    width: 100%;
+    border-radius: 1%;
+    background-color: #684e4e;
+  }
+  .item .text-item{
+    font-family: Montserrat;
+    color: #684e4e;
+    padding: 1% 0;
+  }
