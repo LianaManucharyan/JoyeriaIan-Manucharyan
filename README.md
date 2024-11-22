@@ -10,6 +10,14 @@ Este proyecto es un ecommerce de Joyería Ian, una tienda de joyas que se caract
 
 `react-dom`
 
+## Mis variables de entorno:
+VITE_API_KEY=AIzaSyAkHJMqsuFoj1u1bOZRYvkuS7P331pNb18
+VITE_AUTH_DOMAIN=ecommerce-joyeriaian.firebaseapp.com
+VITE_PROJECT_ID=ecommerce-joyeriaian
+VITE_STORAGE_BUCKET=ecommerce-joyeriaian.firebasestorage.app
+VITE_MESSAGING_SENDER_ID=126150611254
+VITE_APP_ID=1:126150611254:web:cfd2de72824f86bc27e397
+
 `react-router-dom`
 
 `react-toastify`
