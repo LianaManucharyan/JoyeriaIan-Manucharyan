@@ -1,11 +1,18 @@
 import '../NavBar/cartwidget.css' 
+import { useContext } from 'react'
+import { cartContext } from '../../context/CartContext'
+import { Link } from 'react-router-dom'
 
 const CartWidget = () => {
+  const { totalQuantity } = useContext(cartContext)
+
+  const total = totalQuantity()
+  
   return (
-    <div className="carrito-compras">
+    <Link to="/cart" className="carrito-compras">
         <img src="../../../src/assets/carritodecompras.png" alt="carritodecompras"></img>
-        <p>1</p>
-    </div>
+        <p>{ total >= 1 && total }</p>
+    </Link>
   )
 }
 
