@@ -2,7 +2,7 @@ import {object, string, mixed} from "yup"
 
 let userSchema = object({
     fullname: string().required("Nombre Completo es un campo requerido"),
-    phone: mixed().required("Numero es un campo requerido"),
+    phone: mixed(),
     email: string().email().required("Mail es un campo requerido")
 })
 
